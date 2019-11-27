@@ -1,0 +1,36 @@
+ <link href="../img/logo.png" rel="icon" type="../image/x-icon"/>
+    <link rel="stylesheet" href="~/css/login.css" type="text/css">
+
+<body>
+    <header>
+      <nav> 
+            <ul>
+              <li>LOGIN</li>
+              <li><img  src="../img/logo.png" alt="Logotipo do Rolê Top" title="logo" height="200px" width="250px" /> </li>
+              <a asp-controller="Home" asp-action="index">VOLTAR PARA PAGINA INICIAL</a>
+              <a href="logarcomoadm.html" > LOGAR COMO ADM</a>
+            </ul>
+        </nav>
+        <main id="man">
+         <form method="POST" action="agenda-login.html">
+        <div class="hm">
+            <label for="nome">E-mail:</label>
+            
+            <input id="nome" type="text" maxlength="50" minlength="3" name="nome" />
+        </div>
+
+        <div class="hm">
+            <label for="password">Senha:</label>
+           
+            <input id="password" type="text" maxlength="20" minlength="3" name="password" />
+        </div>
+        <br>
+        <div class="op">
+        <input id="logar"  type="submit" value="LOGAR"    />
+      </div>
+    
+  </form>
+  </main>
+    </header>
+    
+</body>

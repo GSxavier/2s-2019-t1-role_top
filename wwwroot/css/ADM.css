@@ -1,0 +1,143 @@
+*{
+    margin: 0px
+}
+nav{
+    background-color: #7D0093;
+    background-image: linear-gradient(180deg,#7D0093,#7D0093,black);
+    color: white;
+    display: flex;
+ }
+ nav ul{
+ display: flex;
+ list-style-type: none;
+ align-items: center;
+ width: 100%;
+ justify-content: space-between;
+ }
+ nav ul img{
+     padding-left: -4em;
+ }
+ body{
+    background-color: #FFC600;
+  }
+  nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    }
+    nav ul img{
+        padding-left: -40em;
+    }
+    body{
+       background-color: #FFC600;
+     }
+     nav ul:first-child{
+       font-size: 4.5em;
+   }
+   main {
+    width: 80%;
+}
+
+#painel {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    padding: 0.5em 0;
+    font-size: 3em;
+    color: #361a0c;
+    text-shadow: 
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+   -1px  1px 0 #fff,
+    1px  1px 0 #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+h4 {
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive;
+}
+
+.box-status-pedidos {
+    width: 130%;
+    padding-top: .5em;
+    text-align: center;
+}
+.box-status-pedidos > p {
+    font-size: 2em;
+    padding: 0.5em 0 0 0;
+}
+
+.box-status-pedidos.reprovados {
+    background-color: #a70000;
+}
+
+.box-status-pedidos.aprovados {
+    background-color: #669100;
+}
+
+.box-status-pedidos.pendentes {
+    background-color: #ff9933;
+}
+
+table {
+    text-align: center;
+    color: #fff;
+    border: 1px dashed #ff9933;
+    width: 100%;
+    padding: 5em;
+
+}
+
+table th {
+    background-color: #FFC600;
+}
+
+table a {
+    text-decoration: none;
+    color:#7D0093;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+tfoot td {
+    text-align: center;
+    color:#7D0093 ;
+    background-color:#FFC600;
+    ;
+}
+
+thead > tr:first-child > th:last-child {
+    padding: 1em;
+}
+table{
+    font-size: 2em;
+    border: 3px  solid black;
+    background-image: linear-gradient(180deg,#7D0093,#7D0093,black);
+}
+thead{
+    border: 3px solid black;
+    color: #7D0093;
+}
+.button{
+    font-size: 20px;
+}
+a{
+    font-size: 20px;
+    color: black;
+    border: 3px solid black;
+    background-color: aliceblue;
+    display: flex;
+   float: right;
+   justify-content: flex-end;
+}

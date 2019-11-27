@@ -1,0 +1,98 @@
+*{
+    margin: 0px
+}
+nav{
+    background-color: #7D0093;
+    background-image: linear-gradient(180deg,#7D0093,#7D0093,black);
+    color: white;
+    display: flex;
+ }
+ nav ul{
+ display: flex;
+ list-style-type: none;
+ align-items: center;
+ width: 100%;
+ justify-content: space-between;
+ 
+ }
+ nav ul img{
+     padding-left: -4em;
+ }
+ body{
+    background-color: #FFC600;
+  }
+  nav ul:first-child{
+    font-size: 5em;
+}
+.agenda{
+    align-items: center;
+    padding: 15px;
+}
+div ul li{
+list-style-type: none;
+font-size: 45px;
+text-decoration-style: bold;
+justify-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 15px;
+
+}
+.calendario{
+    display: flex;
+}
+form * {
+    margin: 10px 0;
+    text-align: bottom;
+    overflow: hidden;
+}
+form input, form select {
+   
+    height: 4px;
+    border:  solid 1px black;
+    text-align: bottom;
+    padding: 3px;
+    border-block-end-color: black;
+    
+}  
+
+form input[type="submit"]:hover {
+background-color: #7D0093;
+
+color: #ffcc00;
+border: 1px solid #7D0093;
+box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+cursor: pointer;
+font-weight: bolder;
+  }
+  form input[type="submit"] {
+    background-color:black;
+    border: 2px solid black;
+    color:white;
+    margin: -15px 0;
+    height: 2em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+  }
+  #rtp{
+      display: flex;
+  }
+  a{
+    font-size: 20px;
+    color: black;
+    border: 3px solid black;
+    background-color: aliceblue;
+    display: flex;
+   float: right;
+   justify-content: flex-end;
+}
+a{
+    font-size: 20px;
+    color: black;
+    border: 3px solid black;
+    background-color: aliceblue;
+    display: flex;
+   float: right;
+   justify-content: flex-end;
+}
