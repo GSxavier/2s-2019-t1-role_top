@@ -11,7 +11,7 @@
             </ul>
         </nav>
         <main id="man">
-         <form method="POST" action="agenda-login.html">
+         <form method="POST" action='@Url.Action("CadastrarCliente","Cadastro")'>
         <div class="hm">
             <label for="nome">Nome Completo:</label>
             
@@ -19,21 +19,22 @@
         </div>
 
         <div class="hm">
-            <label for="password">Senha:</label>
+            <label for="senha">Senha:</label>
            
-            <input id="password" type="text" maxlength="20" minlength="3" name="password" />
+           
+            <input id="senha" type="password" maxlength="20" minlength="3" name="senha" />
         </div>
 
         <div class="hm">
-            <label for="telefone">CPF/CNPJ:</label>
+            <label for="cpfcnpj">CPF/CNPJ:</label>
             
-            <input id="telefone" type="text" maxlength="20"/>
+            <input id="cpfcnpj" type="cpfcnpj" maxlength="20" name="cpfcnpj"/>
         </div>
 
         <div class="hm">
             <label for="email">E-mail:</label>
             
-            <input id="email" type="email" maxlength="50" />
+            <input id="email" type="email" maxlength="50" name="email"/>
         </div>
         
         <input type="submit" value="CADASTRAR" class="hm" style="margin-left: 25px;"/>

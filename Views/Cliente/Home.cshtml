@@ -12,13 +12,9 @@
               <img src="../img/logo.png" alt="Logotipo do Rolê Top" title="logo" height="200px" width="250px" /> 
             </div>
               <div id="home">
-              <form method="GET" action="Cadastro.html">
-              <input type="submit" value="CADASTRAR" class="hm" style="margin-left: 25px;" aps-controller ="Cliente" asp-action="Cadastro" />
-             </form> 
+              <a  asp-controller="Cadastro" asp-action="Index">Cadastro </a>
              <a asp-controller="Home" asp-action="index">VOLTAR PARA PAGINA INICIAL</a>
-             <form method="GET" action="login.html">
-              <input type="submit" value="LOGAR" class="hm" style="margin-left: 25px;" aps-controller ="Cliente" asp-action="Login" />
-             </form>
+             <a asp-controller="Cliente" asp-action="Login">Login</a>
 
             </div>
           </nav>

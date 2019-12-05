@@ -1,0 +1,23 @@
+
+@model RoleTopMVC.ViewModels.RespostaViewModel
+ <link href="../img/logo.png" rel="icon" type="../image/x-icon"/>
+    <link rel="stylesheet" href="~/css/Cadastrado.css" type="text/css">
+
+    <header>
+      <nav> 
+            <ul>
+              <li>CADASTRADO</li>
+              <li><img src="../img/logo.png" alt="Logotipo do Rolê Top" title="logo" height="200px" width="250px" /> </li>
+              <a asp-controller="Home" asp-action="index">VOLTAR PARA PAGINA INICIAL</a>
+            </ul>
+        </nav>
+        <main id="man">
+      
+    <h2 id="blz">
+        @Model.NomeView deu Bom!
+       
+    </h2>
+    <p>
+        @Model.Mensagem 
+    </p>
+</main>

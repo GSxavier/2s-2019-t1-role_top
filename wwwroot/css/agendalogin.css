@@ -77,51 +77,10 @@ div#rtp{
     justify-content: center; 
     display: flex;
      }
-     form label {
-        color:black;
-        font-weight: bold;
-        font-size: 2em;
-    }
-    form input[type="submit"] {
-        background-color:black;
-        border: 2px solid black;
-        color:white;
-        margin: 20px 0;
-        height: 2em;
-        border-radius: 3spx;
-        font-weight: bold;
-        text-align: center;
-        font-size: 3em;
-        
-    }
-    form * {
-        margin: 8px 0;
-        text-align: bottom;
-        overflow: hidden;
-    }
-    form input, form select {
-       
-        height: 40px;
-        border:  solid 2px black;
-        text-align: bottom;
-        padding: 3px;
-        border-block-end-color: black;
-        
-    }  
-    
-form input[type="submit"]:hover {
-    background-color: #7D0093;
-    color: #ffcc00;
-    border: 1px solid #7D0093;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    font-weight: bolder;
-}
 .hm{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     
 }
 h3{

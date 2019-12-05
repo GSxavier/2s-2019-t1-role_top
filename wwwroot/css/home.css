@@ -150,18 +150,15 @@ div {
    
      align-items: center;
  margin:3em;
- justify-content: center;
+ justify-content: space-evenly;
 }
-div #sobrenos{
 
-}
 div.uau{
     height: -300px;
 }
 div.okkk{
     display: flex;
     flex-direction: column;
-    border
     margin:-300px;
     
     

@@ -1,0 +1,216 @@
+ <link href="../img/logo.png" rel="../icon" type="../image/x-icon"/>
+    <link rel="stylesheet" href="~/css/agenda-login.css" type="text/css">
+
+<body>
+        <nav> 
+                <ul>
+                  <li>AGENDA</li>
+                  <li><img src="../img/logo.png" alt="Logotipo do Rolê Top" title="logo" height="200px" width="250px" /> </li>
+              <a asp-controller="Home" asp-action="index">VOLTAR PARA PAGINA INICIAL</a>
+
+                </ul>
+            </nav>
+            <br>
+            <br>
+            <br>
+            <div id="rtp">
+              <div class="calendario" >
+                <style>
+          
+                  .mes {
+          
+                      font: bold 25px verdana;
+          
+                      background: #f5f5f5;
+          
+                      text-align: center;
+          
+                      line-height: 40px;				
+          
+                      height: 40px;
+          
+                      width: 854px;
+          
+                  }
+          
+                  .semana {
+          
+                      font: bold 20px verdana;
+          
+                      background: #f5f5f5;
+          
+                      text-align: center;
+          
+                      line-height: 25px;						  
+          
+                      height: 25px;
+          
+                      width: 120px;
+          
+                  }
+          
+                  .dia {
+          
+                      background: #f5f5f5;
+          
+                      font: 20px verdana;				  
+          
+                      text-align: center;
+          
+                      height: 100px;
+          
+                      width: 100px;
+          
+                  }
+          
+                  .evento {
+          
+                      position: relative;
+          
+                      font: 9px verdana;
+          
+                      color: #C30;
+          
+                      right: -7px;
+          
+                      top: -9px;			  
+          
+                  }
+          
+              </style>    
+          <!-- Calendario-->
+          <table id="pp">
+          
+                  <caption class="mes">Setembro 2019</caption>
+          
+                  <thead>
+          
+                      <tr>
+          
+                          <td class="dia"><div class="semana">D</td>
+          
+                          <td class="dia"><div class="semana">S</td>
+          
+                          <td class="dia"><div class="semana">T</td>
+          
+                          <td class="dia"><div class="semana">Q</td>
+          
+                          <td class="dia"><div class="semana">Q</td>
+          
+                          <td class="dia"><div class="semana">S</td>
+          
+                          <td class="dia"><div class="semana">S</td>
+          
+                      </tr>
+          
+                  </thead>
+          
+                  <tbody>
+          
+                      <tr>
+          
+                          <td class="dia">1<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+          
+                          <td class="dia">2<span class="evento"></span></td>
+          
+                          <td class="dia">3<span class="evento"></span></td>
+          
+                          <td class="dia">4</td>
+          
+                          <td class="dia">5<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+          
+                          <td class="dia">6</td>
+          
+                          <td class="dia">7</td>
+          
+                      </tr>
+          
+                      <tr>
+          
+                          <td class="dia">8<span class="evento"></span></td>
+          
+                          <td class="dia">9</td>
+          
+                          <td class="dia">10</td>
+          
+                          <td class="dia">11<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+          
+                          <td class="dia">12</td>
+          
+                          <td class="dia">13<span class="evento"></span></td>
+          
+                          <td class="dia">14</td>
+          
+                      </tr>			
+          
+                      <tr>
+          
+                          <td class="dia">15<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+          
+                          <td class="dia">16</td>
+          
+                          <td class="dia">17</td>
+          
+                          <td class="dia">18<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+          
+                          <td class="dia">19</td>
+          
+                          <td class="dia">50<span class="evento"></span></td>
+          
+                          <td class="dia">21</td>
+          
+                      </tr>
+          
+                      <tr>
+          
+                          <td class="dia">22<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+          
+                          <td class="dia">23</td>
+          
+                          <td class="dia">24</td>
+          
+                          <td class="dia">25<span class="evento"></span></td>
+          
+                          <td class="dia">26</td>
+          
+                          <td class="dia">27<span class="evento"></span></td>
+          
+                          <td class="dia">28</td>
+          
+                      </tr>
+          
+                  </tbody>
+          
+              </table>
+              
+                  <form method="GET" action="home.html">
+                      <main id="man"></main>
+                 <div class="hm">
+                   <h3>MARCAR EVENTO?</h3>
+                     <label for="nome">DATA:</label>
+                     
+                     <input id="DATA" type="text" maxlength="50" minlength="3" name="nome" />
+                 </div>
+         
+                 <div class="hm">
+                     <label for="Senha">HORARIO:</label>
+                    
+                     <input id="password" type="text" maxlength="20" minlength="3" name="password" />
+                 </div>
+         
+                 <div class="hm">
+                     <label for="telefone">SOBRE O EVENTO:</label>
+                     
+                     <input id="telefone" type="text" maxlength="20"/>
+                 </div>                
+                 <input type="submit" value="PAGAR EVENTO" class="hm" style="margin-left: 25px;"/>
+             </main>
+           </form>
+            </div>
+            <ul>
+              <li>SEUS EVENTOS:</li>
+              <li>DOM,8 DE SETEMBRO, 14:00-23:00 <button class="button"> Confirmar</button> <button class="button"> Cancelar</button></li>
+              <li>SEG,9 DE SETEMBRO, 15:00-20:00 <button class="button"> Confirmar</button> <button class="button"> Cancelar</button></li>
+             <ul></ul>
+             </div>
+        </body>
