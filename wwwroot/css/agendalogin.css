@@ -1,5 +1,6 @@
 *{
     margin: 0px
+    
 }
 nav{
     background-color: #7D0093;
@@ -78,9 +79,11 @@ div#rtp{
     display: flex;
      }
 .hm{
-    display: flex;
+    display: flex ;
     flex-direction: column;
     justify-content: center;
+
+    
     
 }
 h3{
@@ -94,4 +97,8 @@ a{
     display: flex;
    float: right;
    justify-content: flex-end;
+}
+.TOP{
+    display: flex;
+    flex-direction: column;
 }

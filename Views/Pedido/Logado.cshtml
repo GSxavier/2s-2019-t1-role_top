@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>AGENDA</title>
-    <link href="img/logo.png" rel="icon" type="image/x-icon"/>
-    <link rel="stylesheet" href="agenda-login.css" type="text/css">
-</head>
-<body>
+
+    <link href="../img/logo.png" rel="icon" type="../image/x-icon"/>
+    <link rel="stylesheet" href="~/css/agendalogin.css" type="text/css">
+
         <nav> 
                 <ul>
                   <li>AGENDA</li>
-                  <li><img src="img/logo.png" alt="Logotipo do Rolê Top" title="logo" height="200px" width="250px" /> </li>
-                  <a href="Role top.html">VOLTAR PARA PAGINA INICIAL</a>
+                  <li><img src="../img/logo.png" alt="Logotipo do Rolê Top" title="logo" height="200px" width="250px" /> </li>
+                   <a asp-controller="Home" asp-action="index">VOLTAR PARA PAGINA INICIAL</a>
+
                 </ul>
             </nav>
             <br>
@@ -113,7 +109,7 @@
           
                       <tr>
           
-                          <td class="dia">1<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+                          <td class="dia">1<span class="evento"><img src="../img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
           
                           <td class="dia">2<span class="evento"></span></td>
           
@@ -121,7 +117,7 @@
           
                           <td class="dia">4</td>
           
-                          <td class="dia">5<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+                          <td class="dia">5<span class="evento"><img src="../img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
           
                           <td class="dia">6</td>
           
@@ -137,7 +133,7 @@
           
                           <td class="dia">10</td>
           
-                          <td class="dia">11<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+                          <td class="dia">11<span class="evento"><img src="../img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
           
                           <td class="dia">12</td>
           
@@ -149,13 +145,13 @@
           
                       <tr>
           
-                          <td class="dia">15<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+                          <td class="dia">15<span class="evento"><img src="../img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
           
                           <td class="dia">16</td>
           
                           <td class="dia">17</td>
           
-                          <td class="dia">18<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+                          <td class="dia">18<span class="evento"><img src="../img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
           
                           <td class="dia">19</td>
           
@@ -167,56 +163,48 @@
           
                       <tr>
           
-                          <td class="dia">22<span class="evento"><img src="img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
+                          <td class="dia">22<span class="evento"><img src="../img/logo.png" style="width: 50px;border-top-style: solid;border-top-width: 0px;"></span></td>
           
                           <td class="dia">23</td>
           
                           <td class="dia">24</td>
           
-                          <td class="dia">25<span class="evento"></span></td>
-          
-                          <td class="dia">26</td>
-          
-                          <td class="dia">27<span class="evento"></span></td>
-          
-                          <td class="dia">28</td>
-          
-                      </tr>
-          
-                  </tbody>
-          
-              </table>
-              <main id="man">
-                  <form method="GET" action="home.html">
-                 <div class="hm">
-                   <h3>MARCAR EVENTO?</h3>
-                     <label for="nome">DATA:</label>
-                     
-                     <input id="DATA" type="text" maxlength="50" minlength="3" name="nome" />
-                 </div>
-         
-                 <div class="hm">
-                     <label for="Senha">HORARIO:</label>
+                        <td class="dia">25<span class="evento"></span></td>
+        
+                        <td class="dia">26</td>
+        
+                        <td class="dia">27<span class="evento"></span></td>
+        
+                        <td class="dia">28</td>
+        
+                    </tr>
+        
+                </tbody>
+        
+            </table>
+            <main id="man">
+            
+            
+            <div class="hm">
+                <h3>MARCAR EVENTO?</h3>
+                    <label for="nome">DATA:</label>
                     
-                     <input id="password" type="text" maxlength="20" minlength="3" name="password" />
+                     <input id="DATA" type="date" maxlength="50" minlength="3" name="nome" />
                  </div>
          
                  <div class="hm">
-                     <label for="telefone">SOBRE O EVENTO:</label>
-                     
-                     <input id="telefone" type="text" maxlength="20"/>
-                 </div>                
+                     <label for="time">HORARIO:</label>
+                    
+                     <input id="time" type="time" maxlength="20" minlength="3" name="time" />
+                 </div>
+         
+                              
                  <input type="submit" value="PAGAR EVENTO" class="hm" style="margin-left: 25px;"/>
+                 
              </main>
-           </form>
-            </div>
-            <ul>
-              <li>SEUS EVENTOS:</li>
-              <li>DOM,8 DE SETEMBRO, 14:00-23:00 <button class="button"> Confirmar</button> <button class="button"> Cancelar</button></li>
-              <li>SEG,9 DE SETEMBRO, 15:00-20:00 <button class="button"> Confirmar</button> <button class="button"> Cancelar</button></li>
-             <ul></ul>
-             </div>
-        </body>
-    </html>
+             
+           
+        
+   
             
       

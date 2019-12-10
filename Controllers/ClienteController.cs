@@ -112,12 +112,13 @@ namespace RoleTopMVC.Controllers
             catch (Exception e)
             {
                 System.Console.WriteLine(e.StackTrace);
-                return View("Erro");
+                return View("Erro", new RespostaViewModel());
             }
         }
 
-         public IActionResult Logado()
+        public IActionResult Logado()
         {
+
             return View(new BaseViewModel()
             {
                 NomeView = "Logado",

@@ -16,7 +16,6 @@ C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.TagHe
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.RazorCoreGenerate.cache
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
-C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
@@ -34,9 +33,9 @@ C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Clie
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Contato.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Localizacao.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Login.g.cshtml.cs
-C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\AgendaCadastrar.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Index.g.cshtml.cs
-C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Logado.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\ADM\Index.g.cshtml.cs
+C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Pedido\Logado.g.cshtml.cs
+C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Logado.g.cshtml.cs

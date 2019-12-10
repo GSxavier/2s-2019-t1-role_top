@@ -48,7 +48,7 @@ namespace RoleTopMVC.Controllers
                 });
 
                 } else {
-                    return View ("Erro");
+                    return View ("Erro" , new RespostaViewModel());
                 }
                 
                
