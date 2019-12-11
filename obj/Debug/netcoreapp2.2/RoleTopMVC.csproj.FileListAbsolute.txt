@@ -37,5 +37,4 @@ C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shar
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Index.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\ADM\Index.g.cshtml.cs
-C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Pedido\Logado.g.cshtml.cs
 C:\Users\48531730805\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Logado.g.cshtml.cs

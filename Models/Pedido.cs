@@ -7,7 +7,6 @@ namespace RoleTopMVC.Models
     {
         public DateTime Data { get; set; }
         
-        public double PrecoTotal {get;set;}
 
         public Cliente Cliente { get; set; }
         public uint Status { get; set; }
